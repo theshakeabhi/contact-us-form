@@ -25,7 +25,7 @@ SECRET_KEY = '^o73a0m6met!)bx)h8s_ansiwqwb1!!g^wbiyhzb3#j)si6w*@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blooming-wildwood-49695.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['blooming-wildwood-49695.herokuapp.com', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition

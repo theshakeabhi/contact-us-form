@@ -17,8 +17,8 @@ $(document).ready( function(){
 
         //validation for name.
         if (vname.length < 1) {
-            $('#id_name').after('<span class="error">This field is required</span>');
-            flag = false;
+            //$('#id_name').after('<span class="error">This field is required</span>');
+            //flag = false;
           }
         else {
             var nameRegEx = /[A-Za-z ]+$/;
@@ -47,8 +47,8 @@ $(document).ready( function(){
 
         //validation for phone number.        
         if (vphoneno.length < 1) {
-            $('#id_phoneno').after('<span class="error">This field is required</span>');
-            flag = false;
+           //$('#id_phoneno').after('<span class="error">This field is required</span>');
+            //flag = false;
           }
         else {
             var phoneRegEx = /^[0-9]{10}$/;

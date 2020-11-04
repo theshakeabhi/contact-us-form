@@ -8,7 +8,7 @@ class ContactForm(ModelForm):
 
     name = forms.CharField(label='Name:', required=True, min_length=3, max_length=100)
     email = forms.EmailField(label='Email:', required=True)
-    phoneno = forms.CharField(label='Phone No:',required=False )
+    phoneno = forms.CharField(label='Phone No:',required=False, widget=forms.NumberInput)
     description = forms.CharField(label='Description:',required=True, widget=forms.Textarea)
 
     class Meta: 
