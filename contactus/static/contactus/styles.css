@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+/* This .content would make the form in centre*/
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+/* .error and label.error are for showing the error in the validation*/
+.error {
+    color: red;
+    margin-left: 5px;
+}
+  
+label.error {
+    display: inline;
+}
