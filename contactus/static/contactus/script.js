@@ -23,7 +23,6 @@ $(document).ready( function(){
         else {
             var nameRegEx = /[A-Za-z ]+$/;
             var validName = nameRegEx.test(vname);
-            console.log(validName);
             if (!validName){
                 $('#id_name').after('<span class="error">Enter only Characters and Spaces.</span>');
                 flag = false;
@@ -38,7 +37,6 @@ $(document).ready( function(){
         else {
             var emailRegEx = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
             var validEmail = emailRegEx.test(vemail);
-            console.log(validEmail);
             if (!validEmail){
                 $('#id_email').after('<span class="error">Enter valid email address');
                 flag = false;
@@ -53,7 +51,6 @@ $(document).ready( function(){
         else {
             var phoneRegEx = /^[0-9]{10}$/;
             var validPhone = phoneRegEx.test(vphoneno);
-            console.log(validPhone);
             if (!validPhone){
                 $('#id_phoneno').after('<span class="error">Enter a valid 10 digit number');
                 flag = false;
